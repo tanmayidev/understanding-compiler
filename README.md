@@ -166,7 +166,6 @@ console.log(evaluate(parse(lex(program))));
   is to update the outermost `evaluate` invocation to `compile`.
 
 ```javascript
-
 console.log(compile(parse(lex(program))));
 ```
 
